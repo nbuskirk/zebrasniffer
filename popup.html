@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Popup</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link href='https://fonts.googleapis.com/css?family=Anonymous+Pro' rel='stylesheet' type='text/css'>
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/popup.js"></script>
+  </head>
+  <body>
+    <div>
+     
+        <ul class="list-inline">
+          <li><a href="" id="home"><button class="btn btn-primary" title="home" type="button" tabindex="-1" disabled="true"> <span class="glyphicon glyphicon-home" tabindex="-1"></span></button></a></li>
+          <li><button class="btn btn-primary" title="play" type="button" id="play" tabindex="-1" disabled="true"> <span class="glyphicon glyphicon-play" tabindex="-1"></span></button></li>
+          <li><button class="btn btn-primary" title="pause" type="button" id="pause" tabindex="-1" disabled="true"> <span class="glyphicon glyphicon-pause" tabindex="-1"></span></button></li>
+          <li><button class="btn btn-primary" title="reset" type="button" id="reset" tabindex="-1" disabled="true"> <span class="glyphicon glyphicon-step-backward" tabindex="-1"></span></button></li>
+   
+          <li><button class="btn btn-primary" title="setup" type="button" id="setup" tabindex="-1"> <span class="glyphicon glyphicon-cog" tabindex="-1"></span></button></li>
+        </ul>
+       
+        <form id="pb"> 
+          <input type="text" class="form-control" disabled="true" placeholder="Pagebreak.." id="pagebreak">
+        </form>
+   
+        <small id="status"></small>
+     
+    </div>
+    <div id="modal" class="modal fade" tabindex="-1" role="dialog" data-backdrop="static" aria-labelledby="myModalLabel" aria-hidden="true">
+      <img src="loader.png" height="24" class="loader spinner" tabindex="-1">
+      <p></p>
+    </div>
+  </body>
+</html>

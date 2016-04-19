@@ -1,0 +1,43 @@
+body {
+	background:#f4f4f4;
+}
+small {
+	margin:10px 0;
+	color:#333;
+	display:block;
+}
+input[type=checkbox][disabled]  {
+    color: #eee;
+}input[type=checkbox][disabled] + label {
+    color: #ccc;
+}
+a:focus,form:focus, body:focus {
+	outline:none;
+}
+.modal {
+	color:white;
+	text-align:center;
+}
+.modal-backdrop.in {
+	opacity:0.85;
+}
+.modal img {
+	margin-top: 20%;
+    height: 25%;
+}
+.modal img:focus {
+	outline:none;
+}
+.modal p {
+	padding:5px 0;
+}
+select {
+	display:none;
+}
+.spinner {
+	-webkit-animation:spin 1000ms linear infinite;
+}
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotateY(0deg); }
+    100% { -webkit-transform: rotateY(-360deg); }
+}

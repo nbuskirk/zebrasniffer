@@ -1,0 +1,26 @@
+ZebraTester Chrome Extension - ZebraSniffer
+
+author: nathan.buskirk@apicasystem.com / apicasystem.com
+date: February/March 2016
+
+what it does: chrome extension for zebratester recording. May be pointed to a controller/remote install of zebratester
+
+usage/buttons:
+
+home - opens a new window with the defined instance of zebratester displayed -- becomes active once options are set.
+play - start recording -- becomes active once options are set.
+pause - stop recording -- becomes active once options are set.
+reset - dumps your chrome cache, sets chromes proxy to your ZT instance, and resets the active recording in ZT. -- becomes active once options are set.
+  * reset may also be right clicked on -- this will clear the recording WITHOUT dumping your chrome cache.
+pagebreak - inserts a pagebreak -- becomes active once options are set.
+settings - configure your zebratester instance here. Can be remote IP or 127.0.0.1 if running locally. 
+
+
+TODO/IMPROVEMENTS:
+
+1. Pagebreak and reset recording should not be active with 0 recorded items.
+2. Keyboard shortcuts for Zebra commands. Eg: ALT+SHIFT+H = home, ALT+SHIFT+R = reset, etc..
+
+THOUGHTS:
+
+1. Allow multiple users to record against a remote ZT instance? Get recording state, if it's recording currently, do not let someone else record? Just an idea.. 

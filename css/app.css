@@ -1,0 +1,81 @@
+.popup {display:none;}
+body {
+	padding:5px;
+	background:#333;
+	color:white;
+}
+ul {
+	width:216px;
+	margin:0;
+	padding:0;
+}
+
+ul.list-inline {
+	margin:0;
+}
+ul.list-inline li {
+	padding:0;
+	margin:0;
+}
+small {
+	font-family: 'Anonymous Pro';
+	font-size:11px;
+	text-transform: uppercase;
+}
+input[type='text'] {
+	margin-top:5px;
+	font-size:12px;
+	height:auto;
+	padding:4px 10px;
+}
+
+.btn-primary, .btn-primary.focus, .btn-primary:focus {
+	background:#618c47;
+	border-color:#4d7435;
+	-webkit-transition-property:background;
+	-webkit-transition-duration:.50s;
+}
+.btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover, .open>.dropdown-toggle.btn-primary.focus, .open>.dropdown-toggle.btn-primary:focus, .open>.dropdown-toggle.btn-primary:hover {
+	background:#618c47;
+	border-color:#4d7435;
+}
+.btn-primary.disabled, .btn-primary.disabled.active, .btn-primary.disabled.focus, .btn-primary.disabled:active, .btn-primary.disabled:focus, .btn-primary.disabled:hover, .btn-primary[disabled], .btn-primary[disabled].active, .btn-primary[disabled].focus, .btn-primary[disabled]:active, .btn-primary[disabled]:focus, .btn-primary[disabled]:hover, fieldset[disabled] .btn-primary, fieldset[disabled] .btn-primary.active, fieldset[disabled] .btn-primary.focus, fieldset[disabled] .btn-primary:active, fieldset[disabled] .btn-primary:focus, fieldset[disabled] .btn-primary:hover {
+    background-color: #567e3e;
+    border-color: #1e3112;
+}
+
+.btn-primary:hover {
+	background:#4d7435;
+	border-color:#618c47;
+}
+a:focus,form:focus, body:focus {
+	outline:none;
+}
+a:focus,a:hover{
+	text-decoration: none;
+}
+.modal {
+	color:white;
+	text-align:center;
+}
+.modal-open .modal {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.modal-backdrop.in {
+	opacity:0.85;
+}
+.modal img {
+	margin-top:29px;/*loader*/
+}
+.modal img:focus {
+	outline:none;
+}
+
+.spinner {
+	-webkit-animation:spin 1000ms linear infinite;
+}
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotateY(0deg); }
+    100% { -webkit-transform: rotateY(-360deg); }
+}

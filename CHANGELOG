@@ -1,0 +1,14 @@
+
+v1.5 changelog--
+
+Icons and UI updated across the board to be zebrasniffer specific. All references to proxysniffer changed to zebratester.
+
+* New - Custom Bypass/Ignore list added to options. Filter 3rd parties before even recording :D
+* New - Pagebreak UI reworked. Now a text-element, press ENTER to submit break.
+* New - Notification system has been swapped out with chrome notifications instead. Disappear automatically and allow icons :) 
+* New - Right clicking on reset recording will keep cache, and reset the recording. Use this to keep your browser cache intact.
+* New - Keyboard Commands:
+		COMMAND+SHIFT+Z = Open ZebraSniffer
+		CTRL+SHIFT+Z = Open ZebraSniffer (Other OS')
+
+* Resetting your recording no longer sets the proxy. This is intentionally decoupled. 

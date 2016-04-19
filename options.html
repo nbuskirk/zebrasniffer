@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/options.css">
+<!-- Latest compiled and minified JavaScript -->
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</head>
+
+<body style="padding:20px 0">
+
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+
+
+<h4>ZebraTester Instance IP:</h4>
+<input type="text" class="form-control" id="mylocation" placeholder="eg: 127.0.0.1">
+<h4>Bypass List (3rd parties, etc)</h4>
+<small>(will not proxy these requests)</small>
+<input type="text" class="form-control" id="mybypasslist" placeholder="*.apple.com, *.google.com, *.facebook.com">
+<br/>
+<div class="input-group">
+<button class="btn btn-default" id="save">Save</button>
+<button class="btn btn-default" type="button" id="unset">Clear</button>
+</div>
+</div>
+</div>
+</div>
+    <div id="modal" class="modal fade" tabindex="-1" role="dialog" data-backdrop="static" aria-labelledby="myModalLabel" aria-hidden="true">
+      <img src="loader.png" height="48" class="loader spinner" tabindex="-1">
+      <p>loading..</p>
+    </div>
+<script src="js/modal.js"></script>
+<script src="js/options.js"></script>
+</body>
+</html>
